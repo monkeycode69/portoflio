@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MK Portfolio website</title>
+    <meta name="author" content="monkeycode69" />
+    <meta name="description" content="portfolio clone coding" />
+    <meta name="keywords" content="clone coding, portfolio" />
+
+    <!-- css style -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/lightgallery.css" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sniglet:400,800"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="imgs/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="imgs/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="imgs/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="imgs/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="imgs/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="imgs/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="imgs/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="imgs/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="imgs/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="imgs/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="imgs/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="imgs/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="imgs/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="imgs/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="imgs/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <div class="skip-menu">
+      <a href="#">포트폴리오소개</a>
+      <a href="#">자기소개</a>
+      <a href="#">스킬소개</a>
+    </div>
+    <div id="wrap">
+      <header class="header-wrap">
+        <div class="is-center">
+          <div class="is-padding">
+            <div class="header is-clear">
+              <!-- logo -->
+              <h1 class="logo">
+                <a href="index.html"
+                  ><img src="imgs/logo.png" alt="monekycode69"
+                /></a>
+              </h1>
+              <!-- //logo -->
+              <!-- nav -->
+              <nav class="nav ">
+                <h2 class="is-hidden">네비게이션 메뉴</h2>
+                <ul class="nav-list">
+                  <li class="nav-list__item"><a href="index.html">HOME</a></li>
+                  <li class="nav-list__item">
+                    <a href="#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-list__item"><a href="#about">ABOUT</a></li>
+                  <li class="nav-list__item"><a href="#skill">SKILL</a></li>
+                </ul>
+              </nav>
+              <!-- //nav -->
+            </div>
+            <!-- //header -->
+          </div>
+        </div>
+        <div class="header-scroll-bar" id="progress"></div>
+      </header>
+      <!-- //header-wrap -->
+      <main class="main-wrap">
+        <!-- carousel -->
+        <div class="carousel-wrap">
+          <button
+            type="button"
+            title="왼쪽"
+            aria-label="왼쪽"
+            class="btn btn-left"
+          ></button>
+          <button
+            type="button"
+            title="오른쪽"
+            aria-label="오른쪽"
+            class="btn btn-right"
+          ></button>
+          <div class="carousel">
+            <article class="carousel-list col1">
+              <div class="carousel-list-txt">
+                <h2 class="carousel-tit" id="example"></h2>
+                <span class="carousel-subtit">monkeycode69</span>
+              </div>
+            </article>
+            <article class="carousel-list col2 ">
+              <div class="is-center">
+                <div class="is-padding is-clear">
+                  <div class="carousel-col">
+                    <div class="carousel-list-txt">
+                      <h2 class="carousel-tit">
+                        WEB PUBLISHER <br />
+                        WEB FRONTEND
+                      </h2>
+                      <p class="carousel-subtit">
+                        홈페이지 방문해 주셔서 감사합니다. <br />
+                        HTML5, CSS3, JQUERY 기반으로 만들어진 '포트폴리오'
+                        반응형 사이트입니다.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-col">
+                    <div class="carousel-list-img">
+                      <img src="imgs/banner-carousel02-img.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="carousel-list col3">
+              <blockquote class="carousel-bq">
+                <h2 class="carousel-tit">
+                  Throw your heart over the fence <br />
+                  and the rest will follow.
+                </h2>
+                <p class="carousel-subtit">
+                  혼신의 힘을 다해 장애물을 넘는다면, 나머지는 저절로 해결될
+                  것이다.
+                </p>
+                <cite class="carousel-cite"
+                  >노먼 빈센트 필 - <span>Norman Vincent Peale</span></cite
+                >
+              </blockquote>
+            </article>
+          </div>
+        </div>
+        <!-- //carousel-wrap -->
+        <!-- portfolio -->
+        <section class="portfolio" id="portfolio">
+          <div class="is-center">
+            <div class="is-padding is-clear">
+              <h2 class="section-tit">PORTFOLIO</h2>
+              <article class="portfolio-col col1">
+                <figure class="portfolio-fg">
+                  <span class="portfolio-img">
+                    <a href="imgs/banner-portfolio01.jpg">
+                      <img src="imgs/banner-portfolio01.jpg" alt="" />
+                    </a>
+                  </span>
+                  <figcaption class="portfolio-fcp">
+                    <h3 class="portfolio-tit">STANDARD WEBSITE</h3>
+                    <p class="portfolio-p">
+                      웹 표준에 의거한 웹사이트입니다.
+                    </p>
+                    <p class="portfolio-skill">웹 퍼블리싱 100%</p>
+                    <p class="portfolio-link">
+                      <a
+                        href="https://monkeycode69.github.io/standard_website/"
+                        target="_blank"
+                        >SITE</a
+                      ><a
+                        target="_blank"
+                        href="https://github.com/monkeycode69/standard_website"
+                        >GITHUB</a
+                      >
+                    </p>
+                  </figcaption>
+                </figure>
+              </article>
+              <article class="portfolio-col col2">
+                <figure class="portfolio-fg">
+                  <span class="portfolio-img">
+                    <a href="imgs/banner-portfolio02.jpg">
+                      <img src="imgs/banner-portfolio02.jpg" alt="" />
+                    </a>
+                  </span>
+                  <figcaption class="portfolio-fcp">
+                    <h3 class="portfolio-tit">RESPONSIVE WEBSITE</h3>
+                    <p class="portfolio-p">
+                      반응형 웹사이트입니다.
+                    </p>
+                    <p class="portfolio-skill">웹 퍼블리싱 100%</p>
+                    <p class="portfolio-link">
+                      <a
+                        href="https://monkeycode69.github.io/responsive_website/"
+                        >SITE</a
+                      ><a
+                        href="https://github.com/monkeycode69/responsive_website"
+                        >GITHUB</a
+                      >
+                    </p>
+                  </figcaption>
+                </figure>
+              </article>
+              <article class="portfolio-col col3">
+                <figure class="portfolio-fg">
+                  <span class="portfolio-img">
+                    <a href="imgs/banner-portfolio03.jpg">
+                      <img src="imgs/banner-portfolio03.jpg" alt="" />
+                    </a>
+                  </span>
+                  <figcaption class="portfolio-fcp">
+                    <h3 class="portfolio-tit">NAUGHTY DOG</h3>
+                    <p class="portfolio-p">
+                      너티독 리뉴얼 사이트 이미지입니다.
+                    </p>
+                    <p class="portfolio-skill">웹 디자인 100%</p>
+                    <p class="portfolio-link">
+                      <a
+                        href="https://monkeycode69.github.io/naughtydog_design/"
+                        target="_blank"
+                        >SITE</a
+                      ><a
+                        href="https://github.com/monkeycode69/naughtydog_design"
+                        target="_blank"
+                        >GITHUB</a
+                      >
+                    </p>
+                  </figcaption>
+                </figure>
+              </article>
+              <article class="portfolio-col col4">
+                <figure class="portfolio-fg">
+                  <span class="portfolio-img">
+                    <img src="" alt="" />
+                  </span>
+                  <figcaption class="portfolio-fcp">
+                    <h3 class="portfolio-tit">PORTFOLIO WEBSITE</h3>
+                    <p class="portfolio-p">포트폴리오 사이트 입니다.</p>
+                    <p class="portfolio-skill">웹 퍼블리싱 100%</p>
+                    <p class="portfolio-link">
+                      <a href="#" target="_blank">SITE</a
+                      ><a href="#" target="_blank">GITHUB</a>
+                    </p>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- //portfolio -->
+        <!-- about -->
+        <section class="about" id="about">
+          <div class="is-center">
+            <div class="is-padding">
+              <h2 class="section-tit">ABOUT</h2>
+              <!-- tab-list -->
+              <ul class="tab-list is-clear">
+                <li class="tab-list__item item1 active">
+                  <button type="button" class="btn-tab">Profile</button>
+                  <dl class="about-list">
+                    <div class="about-list__item">
+                      <dt class="about-term">이름</dt>
+                      <dd class="about-dst">위강주</dd>
+                    </div>
+                    <div class="about-list__item">
+                      <dt class="about-term">나이</dt>
+                      <dd class="about-dst">만 26세</dd>
+                    </div>
+                    <div class="about-list__item">
+                      <dt class="about-term">학력</dt>
+                      <dd class="about-dst">호남대학교 상담심리학과</dd>
+                    </div>
+                    <div class="about-list__item">
+                      <dt class="about-term">E-mail</dt>
+                      <dd class="about-dst">
+                        <a href="mailto:monkeycode69@gmail.com"
+                          >monkeycode69@gmail.com</a
+                        >
+                      </dd>
+                    </div>
+                    <div class="about-list__item">
+                      <dt class="about-term">PHONE</dt>
+                      <dd class="about-dst">
+                        <a href="tel:01041706576">010-4170-6576</a>
+                      </dd>
+                    </div>
+                  </dl>
+                </li>
+                <!-- tab-list__item 1 -->
+                <li class="tab-list__item item2">
+                  <button type="button" class="btn-tab">Introduction</button>
+                  <dl class="about-list">
+                    <div class="about-list__item">
+                      <dt class="about-term">Introduction</dt>
+                      <dd class="about-dst">
+                        <p class="about-p">
+                          모든 사람들이 자유롭게 웹을 이용하고 사용 할 수 있도록
+                          개발하는 것이 목표입니다.
+                        </p>
+                        <p class="about-p">
+                          그 목표를 위해 많은 욕심을 부리기 보다 한 발자국
+                          최선을 다해 앞으로 나아갈 것입니다.
+                        </p>
+                      </dd>
+                    </div>
+                  </dl>
+                </li>
+                <!-- //tab-list__item 2 -->
+              </ul>
+              <!-- //tab-list -->
+            </div>
+          </div>
+        </section>
+        <!-- //about -->
+        <!-- skill -->
+        <section class="skill" id="skill">
+          <div class="is-center">
+            <div class="is-padding">
+              <h2 class="section-tit">SKILL</h2>
+              <dl class="skill-list is-clear">
+                <div class="skill-list__item">
+                  <dt class="skill-term">HTML</dt>
+                  <dd class="skill-dst">
+                    <p class="skill-p">
+                      웹 표준(W3C)에 근거하여 HTML의 각 코드 사용법을 정확하게
+                      숙지하고, 해당 코드를 구조도출화하는데 사용합니다.
+                    </p>
+                  </dd>
+                </div>
+                <div class="skill-list__item">
+                  <dt class="skill-term">CSS</dt>
+                  <dd class="skill-dst">
+                    <p class="skill-p">
+                      CSS3 표준(W3C)에 따라 Cascading 규칙을 이해하고 float,
+                      position, flex, grid를 숙지하여 다양한 레이아웃 환경에
+                      맞는 스타일을 지정합니다.
+                    </p>
+                  </dd>
+                </div>
+                <div class="skill-list__item">
+                  <dt class="skill-term">반응형 웹</dt>
+                  <dd class="skill-dst">
+                    <p class="skill-p">
+                      각 기기별로 사용자들이 최적화된 화면을 이용할 수 있도록
+                      반응형 웹 작성합니다.
+                    </p>
+                  </dd>
+                </div>
+                <div class="skill-list__item">
+                  <dt class="skill-term">웹표준 / 웹 접근성</dt>
+                  <dd class="skill-dst">
+                    <p class="skill-p">
+                      누구나 웹페이지를 쉽게 이용하는 것을 목표로 aria-label 등
+                      속성을 사용하여 작성합니다.
+                    </p>
+                  </dd>
+                </div>
+                <div class="skill-list__item">
+                  <dt class="skill-term">크로스 브라우징</dt>
+                  <dd class="skill-dst">
+                    <p class="skill-p">
+                      IE10 이상에서도 불편함 없이 사이트를 이용할 수 있도록
+                      selector 및 html5 코드를 신경써서 작성합니다.
+                    </p>
+                  </dd>
+                </div>
+                <div class="skill-list__item">
+                  <dt class="skill-term">JQUERY</dt>
+                  <dd class="skill-dst">
+                    필요한 플러그인을 이해하고 해당 코드를 작성하여 원하는
+                    모션을 취할 수 있습니다.
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </section>
+        <!-- //skill -->
+        <!-- contact -->
+        <!-- //contact -->
+      </main>
+      <footer class="footer-wrap">
+        <small class="footer-small"
+          >Copyright &copy; 2019 - 위강주 All rights reserved</small
+        >
+      </footer>
+    </div>
+
+    <!-- script -->
+    <script src="js/jquery.min_1.12.4.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/typer.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.progress.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@media (max-width:1220px) {
+    .is-center {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel-list.col2 .carousel-col:first-child {
+        float: none;
+        width: 100%;
+    }
+
+    .carousel-list.col2 .carousel-col:last-child {
+        display: none;
+    }
+
+
+    .carousel-list.col2 .carousel-list-txt {
+        margin-top: 120px;
+        text-align: center;
+        transform: translate(0, 100px);
+    }
+}
+
+@media (max-width: 960px) {
+    .portfolio-col {
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    .skill-list__item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-list.col3 .carousel-bq {
+        margin-top: 170px;
+        padding: 0 20px;
+    }
+
+    .carousel-list.col3 .carousel-tit {
+        font-size: 30px;
+    }
+
+    .carousel-list.col3 .carousel-subtit {
+        display: none;
+    }
+
+    .portfolio-col {
+        width: 100%;
+    }
+
+    .skill-list__item {
+        width: 100%;
+    }
+}
