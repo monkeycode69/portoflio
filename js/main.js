@@ -46,7 +46,7 @@ $('.btn.btn-right').click(function () {
 // slick slider text
 $('#example').typer({
     strings: [
-        "FRONT END DEVELOPER",
+        "FRONT END",
         "PRACTICE HARDER",
         "BE BEST DEVELOPER"
     ],
